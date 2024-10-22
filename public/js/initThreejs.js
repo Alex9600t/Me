@@ -7,7 +7,7 @@ function initRain() {
     camera.rotation.x = Math.PI / 2;
 
     renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('rainCanvas'), alpha: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(window.innerWidth * 1, window.innerHeight * 1);
 
     const rainGeometry = new THREE.BufferGeometry();
     const rainPositions = [];

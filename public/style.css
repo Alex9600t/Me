@@ -6,7 +6,7 @@ body,html {
     width: 100%;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
-    color: #ffffff;
+    color: #ffffff; 
 }
 
 /* Контейнер для контента */
