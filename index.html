@@ -20,25 +20,64 @@
     <div class="content">
         <h1>Добро пожаловать</h1>
         <p>Ававава! Памягите!</p>
-        <button class="btn" id="infoBtn">Кнопачка :3</button>
-        <button class="btn" id="toggleGraphBtn">График :3</button>
+        <button class="btn" id="rickBtn">Не тыкай!!!</button>
+        <button class="btn" id="linksBtn">Ссылки :3</button>
+        <button class="btn" id="linksBtn">Обо мне :3</button>
+        <button class="btn" id="linksBtn">Мои проекты :3</button>
         <div id="chartContainer" style="display:none;">
             <canvas id="myChart"></canvas>
         </div>
     </div>
 
-    <div class="modal" id="infoModal">
+    <div class="modal" id="rickModal">
         <div class="modal-content">
-            <button class="close-btn" id="closeModal">&times;</button>
-            <h2>Информация</h2>
-            <p>Тут что-то будет..</p>
+            <h2>ЕЩЕ НЕ ПОЗДНО ВЫЙТИ!</h2>
+            <button class="btn" id="closeRickModal"><span>Выход</span></button>
+            <button class="btn" id="RickRollBtn"><span>Я знаю, что делаю!</span></button>
+        </div>
+    </div>
+    <div class="modal" id="RickRollModal">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?si=PVogU_n9iaeSAsiu&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="modal" id="linksModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeLinksModal">&times;</button>
+            <h2>Ссылки</h2>
+            <div class="list1">
+                <div class="item">
+                    <a href="https://github.com/Alex9600t">
+                        <img src="img/github.svg" alt="" height="50px">
+                        <span>GitHub</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="discord://discord.com/invite/ueECdXVYNt">
+                        <img src="img/discord.svg" alt="" width="45px">
+                        <span>⠀Discord</span>
+                    </a>
+                </div>
+            </div>
+            <div class="list2">
+                <div class="item">
+                    <a href="https://steamcommunity.com/id/bduidan">
+                        <img src="img/steam.svg" alt="" height="47px">
+                        <span>⠀Steam</span>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://t.me/bduidan_dev_bot">
+                        <img src="img/telegram.svg" alt="" height="47px">
+                        <span>Telegram</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
     <script src="js/main.js"></script>
     <script src="js/initThreejs.js"></script>
     <script src="js/GSAPparallax.js"></script>
-    <script src="js/interactiveGraphChart.js"></script>
     <script src="js/parallax.js"></script>
 </body>
 

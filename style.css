@@ -133,3 +133,41 @@ body,html {
     left: 0;
     z-index: 1;
 }
+
+a {
+    color: unset;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    transition-duration: 0.5s;
+
+}
+
+.list1, .list2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.item>a {
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 1px 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    transition-duration: 0.5s;
+}
+
+.item>a:hover {
+    border: solid 1px rgb(108, 87, 87);
+    padding: 5px 15px;
+
+}
